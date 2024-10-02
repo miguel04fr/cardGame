@@ -50,3 +50,13 @@ El objetivo del juego es ser el último jugador que quede sin explotar.
         
 4. **Condiciones de victoria:**
     - El juego continúa hasta que todos los jugadores, excepto uno, hayan sido eliminados por una bomba.
+
+## ⚙️ 5. Mecánica del juego
+- Un jugador solamente puede pasar turno si tiene una carta de pasar turno, en caso contrario el botón aparecerá deshabilitado.
+- Un jugador solamente puede desactivar una bomba si posé una carta de desactivación. Está acción será automática. Se pondrán las dos cartas, bomba y desactivación en la pila de cartas descartadas.
+- Si un jugador es eliminado, sus cartas irán a la pila de descarte y no podrá seguir jugando el resto de la partida.
+- Si solamente queda un jugador, se mostrar un alert avisado de que es el ganador.
+    - Se eliminará del dom el botón robar carta y en su lugar aparecerá un botón jugar de nuevo. Este botón reinicia el juego.
+- Si no quedan cartas:
+    - Se mostrar un alert con el Jugador que ganó, comparar los puntos.
+    - Se eliminará del dom el botón robar carta y en su lugar aparecerá un botón jugar de nuevo. Este botón reinicia el juego.
