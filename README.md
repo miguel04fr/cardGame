@@ -60,3 +60,9 @@ El objetivo del juego es ser el último jugador que quede sin explotar.
 - Si no quedan cartas:
     - Se mostrar un alert con el Jugador que ganó, comparar los puntos.
     - Se eliminará del dom el botón robar carta y en su lugar aparecerá un botón jugar de nuevo. Este botón reinicia el juego.
+
+## 6. Autores
+- Borja Rodríguez.
+    - Git: https://github.com/brodriguezp09
+- David Elías Martín.
+    - Git:  https://github.com/Elias-MN
